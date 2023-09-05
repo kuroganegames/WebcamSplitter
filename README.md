@@ -1,50 +1,50 @@
 # Webcam Splitter by @Kurogane_8_Gk
 
-Webcam Splitterは、1つの物理的なWebカメラを複数の仮想カメラに分岐させるPythonプログラムです。
+[日本語の説明もあります。](https://github.com/kuroganegames/WebcamSplitter/blob/main/README_JP.md)
 
-GUIを備えており、簡単に設定を行うことができます。
+Webcam Splitter is a Python program that splits a single physical webcam into multiple virtual cameras.
 
-## 機能
+It comes with a GUI, making it easy to configure the settings.
 
-- 物理的なWebカメラから映像を取得
-- 2つの仮想カメラに映像を送信
-- 前回の設定をINIファイルに保存・読み込み
+## Features
 
-## 依存関係
+- Captures video from a physical webcam
+- Sends video to two virtual cameras
+- Saves and loads previous settings in an INI file
+
+## Dependencies
 - ffmpeg
 - schellingb/UnityCapture
 - OBS Studio
 
-### Pythonで使用する場合
+### For Python Usage
 
-opencv-python、pyvirtualcamが必要です。
+You'll need opencv-python and pyvirtualcam.
 
-Python 3.9.13で動作確認済み
+Tested on Python 3.9.13
 
 ```
 pip install opencv-python
 pip install pyvirtualcam
 ```
 
-## インストール
-### exe版
+## Installation
+### EXE Version
 
-[Release](https://github.com/kuroganegames/WebcamSplitter/releases)よりダウンロード可能です。
+You can download it from the [Release](https://github.com/kuroganegames/WebcamSplitter/releases) page.
 
-~~boothからも入手可能です。~~ 準備中
+~~Also available on booth.~~ Coming soon
 
-### Python版
+### Python Version
 
-依存関係をすべてインストールした後、このリポジトリをクローンまたはダウンロードしてください。
+After installing all the dependencies, clone or download this repository.
 
+## Usage
+- Launch the program.
+- A GUI will appear, where you can select the input device (physical webcam) and output devices (virtual cameras).
+- Click the "OK" button to start splitting the camera.
+- The program runs on a single thread, so the window will freeze after execution, but the program is working correctly.
+- To exit, press the 'X' on the black window.
 
-
-## 使い方
-- プログラムを起動します。
-- GUIが表示されるので、入力デバイス（物理的なWebカメラ）と出力デバイス（仮想カメラ）を選択します。
-- "OK"ボタンをクリックして、カメラの分岐を開始します。
-- シングルスレッドで動作するため、実行後、ウィンドウはフリーズしますが、プログラムは正常に動いています。
-- 終了時は黒いウィンドウ側のXを押してください。
-
-## ライセンス
-このプロジェクトはGPLライセンスのもとで公開されています。詳細は[LICENSE](https://github.com/kuroganegames/WebcamSplitter/blob/main/LICENSE)を参照してください。
+## License
+This project is released under the GPL license. For more details, please refer to the [LICENSE](https://github.com/kuroganegames/WebcamSplitter/blob/main/LICENSE).
