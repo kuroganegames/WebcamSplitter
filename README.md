@@ -14,7 +14,7 @@ It comes with a GUI, making it easy to configure the settings.
 
 ## Dependencies
 - ffmpeg
-- schellingb/UnityCapture
+- [schellingb/UnityCapture](https://github.com/schellingb/UnityCapture)
 - OBS Studio
 
 ### For Python Usage
