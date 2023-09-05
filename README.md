@@ -1,4 +1,4 @@
-# Webcam Splitter by @Kurogane_8_Gk
+# Webcam Splitter by [@Kurogane_8_Gk](https://twitter.com/Kurogane_8_Gk)
 
 [日本語の説明もあります。](https://github.com/kuroganegames/WebcamSplitter/blob/main/README_JP.md)
 
