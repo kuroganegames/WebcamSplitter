@@ -1,4 +1,4 @@
-# Webcam Splitter by @Kurogane_8_Gk
+# Webcam Splitter by [@Kurogane_8_Gk](https://twitter.com/Kurogane_8_Gk)
 
 Webcam Splitterは、1つの物理的なWebカメラを複数の仮想カメラに分岐させるPythonプログラムです。
 
@@ -12,7 +12,7 @@ GUIを備えており、簡単に設定を行うことができます。
 
 ## 依存関係
 - ffmpeg
-- schellingb/UnityCapture
+- [schellingb/UnityCapture](https://github.com/schellingb/UnityCapture)
 - OBS Studio
 
 ### Pythonで使用する場合
